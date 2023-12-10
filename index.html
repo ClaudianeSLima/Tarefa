@@ -1,151 +1,14 @@
 <html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 
-  <head> 
     <title> Mundo Digital </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
-<style>
-  *{ 
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
- }
- html,body{
-    height:100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-  header { 
-      display: flex;
-      align-items: center;
-      width: 100%;
-      height: 80px;
-      background-color: blue;
-  }
-  .cabecalho {
-    display: flex;
-    justify-content: center;
-    margin-left: 50px;
-  }
- 
-  
- .title {
-    
-    margen-left: 20px;
-  }
- .title h2{
-     margen-left: 20px;
-     justify-content: left;
-     font-family:'Lato', sans-serif;
-     color: #fff;
-  }
-  .menu{
-    display:flex;
-  }
-  .menu li{
-    margin:20px;
-    justify-content: flex-end;
-    list-style: none;
-    color: #fff;
-    font-family:'Lato', sans-serif;
    
-  }
 
- .menu li a {
-  
-  text-decoration: none;
-  font-size: 15px;
-  font-family: 'Lato',sans-serif;
-  color: #fff;
-}
-
- .menu li a:hover {
-  background-color: orange;
-  color: black;
-}
-.rodape{
-      font-family:'Lato', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 50px;
-      background-color: blue;
-      font-family:'Lato', sans-serif;
-      color: #fff;
- 
-  }
-
-.cadastro button{
- margin:50px ;
- border: 0;
- background-color: #FF4500;
-
- border-radius:10px;
-width:100px;
-height: 30px;
-cursor: pointer;
-}
-.login button{
-margin:5px ;
- border: 0;
- background-color: #FF4500;
-
- border-radius:10px;
-width:100px;
-height: 30px;
-cursor: pointer;
-}
-.cadastro a{
-text-decoration: none;
- color:white;
-}
-
-.login a{
-
-text-decoration: none;
- color:white;
-}
-section.home{
-  height: calc(100%-200px);
-  position: relative;
-}
-
-.extras{
-  position: absolute;
-  right: 50px;
-  top:150px;
-}
-
-.sobre h1{
-  font-family:'Lato', sans-serif;
-  font-size: 30px;
-  margin:50px ;
-  max-width:500px
-}
-.sobre p{
-     font-family:'Lato', sans-serif;
-     margin-left:50px ;
-     color: black;
-     font-size: 20px;
-     font-weight: bold;
-     max-width:500px;
-}  
-.sobre button{
- margin:50px ;
- border: 0;
- background-color: #FF4500;
-
- border-radius:10px;
-width:100px;
-height: 30px;
-cursor: pointer;
-}
-.sobre button a{
-text-decoration: none;
- color:white;
-}
-    </style>
   </head>
   
 <body>
@@ -169,6 +32,23 @@ text-decoration: none;
      <li><a href="Login.html">Curiosidades</a></li>
   </ul>
 </nav>
+
+<div>
+  <div class="mostra">
+    <input type="text" name="buscar" id="topo-buscar" />
+    <button>Buscar</button>
+  </div>
+</div>
+
+<div>
+<div class="buscar">
+  <a href="" id="busca">
+    <span></span>
+    Mostrar/Esconder
+  </a>
+</div>
+</div>
+
 <div class="cadastro">
 
  <button> <a align="right" href="Cadastro.html">Cadastre-se</a> </button>
@@ -184,11 +64,11 @@ text-decoration: none;
 <section class="home">
 
 <div class="sobre">
-   <h1>Descubra as últimas notícias do mundo tecnológico. <br/><span style="color: #FF4500;">Bem vindo</span> ao nosso site.</h1>
+   <h1><span style="color: #FF4500;">Bem vindo</span> ao nosso site.<br><br>Descubra as últimas notícias do mundo tecnológico.</h1>
     
    <p> A mundo digital é a sua fonte confiável de curiosidades, notícias e muito mais do mundo da tecnologia.</p>
    <button><a href="Saiba mais.html">Sobre nós</a></button>
- 
+
 
 <br><br><br><br><br><br>
 
