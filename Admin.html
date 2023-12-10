@@ -1,11 +1,58 @@
 <html>
 
-  <head> 
+<head> 
     <title> Admin </title>
-    <style>
-     table {
+
+<style>
+*{ 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ header { 
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 80px;
+      background-color: blue;
+  }
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    font-family:'Lato', sans-serif;
+    color: #fff;
+    
+  margin-right: 50px;
+  margin-left: 420px;
+  
+}
+
+.texto {
+  font-family:'Lato', sans-serif;
+  font-size: 30px;
+  margin:30px ;
+  max-width:500px
+}
+
+.texto button {
+ margin:30px ;
+ border: 0;
+ background-color: #FF4500;
+ border-radius:10px;
+ width:100px;
+ height: 30px;
+ cursor: pointer;
+ text-decoration: none;
+ color:white;
+}
+
+
+table {
       width: 500px;
       border-collapse: collapse;
+      margin-right: 50px;
+      margin-left: 420px;
      }
      table {
       border: 1px solid black;
@@ -20,15 +67,35 @@
       background-color: blue;
       color: white;
      }
+
+ .rodape{
+      font-family:'Lato', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+      background-color: blue;
+      font-family:'Lato', sans-serif;
+      color: #fff;
     </style>
     
   </head>
+
 <body> 
+<header>
+
+<div class="cabecalho">
+   <h1> Lista de usuários cadastrados</h1>
+   </div>
+</div>
    
-  <h1> Lista de usuários cadastrados</h1>
+</header>
+<div class="texto">
   <h3>Cadastrar novo usuário</h3>
   <button>Cadastrar</button>
   <br><br>
+</div>
   
   <table>
     <tr class="linha">
@@ -68,10 +135,14 @@
       <td><button>Editar</button><button>Apagar</button></td>
     </tr>
   </table>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br>
- <div class="rodape">
-   <p align="center">&copy;2023| Autor: Claudiane Santiago | Email: claudiane.santiago05@aluno.ifce.edu.br</p>
-   
- </div>
+  <br><br><br><br><br><br><br>
+
+<footer>
+<div class="rodape">
+<h5 align="center">&copy;2023| Autor: Claudiane Santiago | Email: claudiane.santiago05@aluno.ifce.edu.br</h5>
+
+</div> 
+</footer>
+
 </body>
 <html>
