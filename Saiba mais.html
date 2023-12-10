@@ -2,12 +2,134 @@
 
   <head> 
     <title> Mundo Digital </title>
+<style>
 
-  </head>
+*{ 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ header { 
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 80px;
+      background-color: blue;
+  }
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    font-family:'Lato', sans-serif;
+    color: #fff;
+     font-size: 10px;
+  margin-right: 50px;
+  margin-left: 30px;
   
-  <body> 
-   <h1>Mundo Digital</h1>
+}
 
+.menu{
+    display:flex;
+  }
+  .menu li{
+    margin:20px;
+    
+    justify-content: flex-end;
+    list-style: none;
+    color: #fff;
+    font-family:'Lato', sans-serif;
+       
+  }
+
+ .menu li a {
+  
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Lato',sans-serif;
+  color: #fff;
+}
+
+ .menu li a:hover {
+  background-color: orange;
+  color: black;
+}
+.texto {
+  font-family:'Lato', sans-serif;
+  font-size: 30px;
+  margin:30px ;
+  max-width:500px
+}
+
+.texto button {
+ margin:30px ;
+ border: 0;
+ background-color: #FF4500;
+ border-radius:10px;
+ width:100px;
+ height: 30px;
+ cursor: pointer;
+ text-decoration: none;
+ color:white;
+}
+
+ .rodape{
+      font-family:'Lato', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+      background-color: blue;
+      font-family:'Lato', sans-serif;
+      color: #fff;
+}
+.sobre h2{
+  font-family:'Lato', sans-serif;
+  font-size: 30px;
+  margin:50px ; 
+  margin-left: 300px;
+ 
+  
+}
+
+.sobre h3{
+  font-family:'Lato', sans-serif;
+  font-size: 30px;
+  margin:50px ; 
+  margin-left: 30px;
+  color:#FF4500;
+  
+}
+.sobre p{
+  font-family:'Lato', sans-serif;
+  font-size: 20px;
+  margin:50px ; 
+  margin-left: 30px;
+  max-width:1270px
+}
+
+</style>
+  </head>
+<header>
+<div class="cabecalho">
+   
+   <h1>Mundo Digital</h1>
+   </div>
+</div>
+<nav>
+  <ul class="menu"> 
+     <li><a href="Admin.html">Admin</a></li>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="Login.html">Últimas Notícias</a></li>
+     <li><a href="Login.html">Análises de produtos</a></li>
+     <li><a href="Login.html">Dicas e truques</a></li>
+     <li><a href="Login.html">Curiosidades</a></li>
+  </ul>
+</nav>
+</header> 
+  <body> 
+   
+<div class="sobre">
    <h2>Descubra as últimas notícias do mundo tecnológico.</h2>
    
    <h3>Sobre Nós </h3>
@@ -15,9 +137,16 @@
        Localizada em Limoeiro do Norte- CE somos apaixonados por explorar as maravilhas do mundo digital.
        Nosso objetivo é compartilhar conhecimentos afim de ajudar a compreender a diversidade desse mundo. 
        Acreditamos que tecnologia está em constante evolução. Junte-se a nós nessa jornada.</p>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <div class="rodape">
-<p align="center">&copy;2023| Autor: Claudiane Santiago | Email: claudiane.santiago05@aluno.ifce.edu.br</p>  
+  </div>
+  <br><br><br><br><br><br><br><br>
+
+<footer>
+<div class="rodape">
+<h5 align="center">&copy;2023| Autor: Claudiane Santiago | Email: claudiane.santiago05@aluno.ifce.edu.br</h5>
+
+</div> 
+</footer>
+
   </body>
 
 </html>
