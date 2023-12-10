@@ -2,33 +2,234 @@
 
   <head> 
     <title> Mundo Digital </title>
-     
+<style>
+
+*{ 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ header { 
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 80px;
+      background-color: blue;
+  }
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    font-family:'Lato', sans-serif;
+    color: #fff;
+     font-size: 10px;
+  margin-right: 50px;
+  margin-left: 30px;
+  
+}
+
+.menu{
+    display:flex;
+  }
+  .menu li{
+    margin:20px;
+    
+    justify-content: flex-end;
+    list-style: none;
+    color: #fff;
+    font-family:'Lato', sans-serif;
+       
+  }
+
+ .menu li a {
+  
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Lato',sans-serif;
+  color: #fff;
+}
+
+ .menu li a:hover {
+  background-color: orange;
+  color: black;
+}
+.texto {
+  font-family:'Lato', sans-serif;
+  font-size: 30px;
+  margin:30px ;
+  max-width:500px
+}
+
+.texto button {
+ margin:30px ;
+ border: 0;
+ background-color: #FF4500;
+ border-radius:10px;
+ width:100px;
+ height: 30px;
+ cursor: pointer;
+ text-decoration: none;
+ color:white;
+}
+
+ .rodape{
+      font-family:'Lato', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+      background-color: blue;
+      font-family:'Lato', sans-serif;
+      color: #fff;
+}
+.sobre h2{
+  font-family:'Lato', sans-serif;
+  font-size: 30px;
+  margin:50px ; 
+  margin-left: 20px;
+ 
+  
+}
+
+}
+.noticias h3{
+  font-family:'Lato', sans-serif;
+  max-width:1270px
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+}
+.truques p {
+  
+  margin-top: -800px;
+  margin-left: 320px;
+  font-size: 20px;
+}
+</style>
+    
   </head>
   
   <body>
- 
-   <h1> Mundo Digital</h1>
-   <h2>Descubra as últimas notícias do mundo tecnológico.</h2>
-
-<img src="Notícias.jpg"alt="Noticías" width="100" heigt="100">
-   <p>Últimas Notícias sobre tecnologia.</p>
-    <button> Saiba mais  </button>
-<br><br>
-
-<img src="Android.jpg"alt="Android" width="100" heigt="100">
-<p>Dicas e truques para o seu Android.</p>
-    <button> Saiba mais  </button>
-<br><br>
-
-<img src="Análises.jpg"alt="Análises" width="100" heigt="100">
-<p>Veja as nossas análises sobre alguns produtos.</p>
-    <button> Saiba mais  </button>
-<br><br>
-
-<img src="Curiosidades.jpg"alt="Curiosidades" width="100" heigt="100">
-<p>Curiosidades do mundo tech.</p>
-    <button> Saiba mais  </button>
+<header>
+<div class="cabecalho">
    
+   <h1>Mundo Digital</h1>
+   </div>
+</div>
+<nav>
+  <ul class="menu"> 
+     <li><a href="Admin.html">Admin</a></li>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="Login.html">Últimas Notícias</a></li>
+     <li><a href="Login.html">Análises de produtos</a></li>
+     <li><a href="Login.html">Dicas e truques</a></li>
+     <li><a href="Login.html">Curiosidades</a></li>
+  </ul>
+</nav>
+</header> 
+ 
+<div class="sobre">
+   <h2>Nossas últimas notícias do mundo tecnológico.</h2>
+</div>
+
+<img src="Notícias.JPG"alt="Noticías" width="400" heigt="400">
+<div class="noticias">
+<br><br>
+   <h3>Destaques de hoje.</h3>
+<br><br>
+1. Governo estuda imposto de importação para produtos abaixo de US$ 50, diz Alckmin: O governo brasileiro estuda taxar importações cujas quais estejam abaixo do valor de US$ 50, atualmente o teto para isenção de taxas a partir do programa Remessa Conforme. </p>
+<br><br>
+2. Projeto de Lei pode fazer com que corridas de Uber e 99 fiquem de graça: Um projeto de lei em análise na Câmara dos Deputados obriga motoristas de transporte privado, inclusive de apps como Uber e 99 a ter troco para pagamentos em dinheiro. Caso contrário, a corrida será feita de forma gratuita. </p>
+<br><br>
+3. Spotify Wrapped 2023: veja como fazer a retrospectiva das músicas mais escutadas no ano: A Retrospectiva Spotify 2023, também conhecida como Spotify Wrapped, já está disponível nesta quarta-feira (29). Confira o passo a passo;</p>
+<br><br>
+4. Assista logo! Todos os filmes e séries saindo da Netflix em dezembro de 2023: A Netflix possui um catálogo rotativo e, ao mesmo ritmo que lança novidades diariamente, a empresa também retira filmes e séries do seu catálogo. No mês de dezembro de 2023, isso não será diferente: a empresa perderá cerca de 40 filmes e séries.</p>
+<br><br>
+5. Golpe da falsa central: Anatel pode responsabilizar teles por golpes com prefixo 0800: A Anatel publicou segunda-feira (27) o Despacho Decisório nº68/2023 que, entre outras providências, determina que que operadoras que comercializem números 0800 suspendam imediatamente as vendas, para reprimir o golpe da falsa central de atendimento. </p>
+<br><br>
+fonte:https://www.tecmundo.com.br/internet/274358-10-noticias-tecnologia-voce-comecar-dia-30-11.htm
+</div>
+    
+<br><br>
+<div class="truques">
+<img src="Android.JPG"alt="Android" width="400" heigt="400">
+<br><br>
+<h3>3 Dicas e truques para o seu Android.</h3>
+<br><br>
+1. Customizar a aparência do Android
+Os celulares Android possuem diversas opções de customização que permitem ao usuário atribuir um visual único ao dispositivo. É possível alterar a paleta de cores e, com isso, criar interfaces mais customizadas, que variam de acordo com os gostos de cada um. Para isso, vá até as “Configurações” do seu aparelho e procure pela opção “Papel de parede e estilo”. Em seguida, toque em “Paleta de cores”. Selecione a sua preferida e vá em “Aplicar”.
+<br><br>
+2. Usar um launcher para mudar o Android
+Os launchers são aplicativos que permitem mudar a tela de início do Android, descartando a necessidade de ficar preso aos padrões estabelecidos pelos fabricantes. Há várias opções disponíveis, como o Launcher iOS 16, que faz com que o seu celular fique parecido com o sistema do iPhone. Muitos apps desse tipo estão disponíveis diretamente na Google Play Store.
+
+Então, basta baixar o arquivo de sua preferência e fazer a instalação. Em seguida, aperte o botão home do seu dispositivo e execute o app baixado. Não se esqueça de clicar na opção “Sempre usar esse aplicativo”, para que ele entre em execução.
+<br><br>
+3. Esconder aplicativos diversos
+Celulares Android permitem que você oculte aplicativos para que eles não fiquem visíveis na tela inicial e na biblioteca. Isso é útil para impedir - ou, pelo menos, dificultar - o acesso de pessoas não autorizadas a alguns apps com conteúdo pessoal, como os de banco, por exemplo. Além disso, oferece mais tempo para tomar as medidas cabíveis em situações de furto, roubo ou perda.
+
+Em um celular Samsung, por exemplo, para ocultar um app basta ir até “Configurações”, depois em “Tela inicial” e, em seguida, em “Ocultar aplicativos”. Agora, selecione os apps que gostaria de ocultar e pressione “OK”. Assim, só é possível acessar o app fazendo uma busca na seção de “Aplicativos”.
+<br><br>
+fonte: https://www.techtudo.com.br/listas/2023/04/dez-melhores-dicas-de-android-que-voce-deveria-conhecer-hoje-edapps.ghtml
+<br><br>
+
+<div class="analises">
+<img src="Análises.JPG"alt="Análises" width="400" heigt="400">
+<br><br>
+<h3>Veja as nossas análises sobre alguns produtos.</h3>
+<br><br>
+Os 10 melhores celulares de 2023
+
+<br><br>
+1°	Samsung Galaxy S23 Ultra
+<br>	
+2°	OnePlus 
+<br>
+3°	Apple iPhone 13 Pro Max
+<br>	
+4°	Samsung Galaxy S22 Ultra
+<br>	
+5°	Samsung Galaxy S23 FE
+<br>	
+6°	ASUS Zenfone 10	
+<br>
+7°	Motorola Edge 30 Ultra
+<br>	
+8°	Samsung Galaxy Z Fold 4	
+<br>
+9°     Samsung Galaxy S23
+<br>	
+10°    ASUS Zenfone 9
+<br><br>
+
+fonte:https://www.oficinadanet.com.br/smartphones/41436-melhores-celulares-review
+
+<br><br>
+<div class="curiosidades">
+<img src="Curiosidades.JPG"alt="Curiosidades" width="400" heigt="400">
+</div>
+<br><br>
+<h3>5 Curiosidades do mundo tech que você não sabia.</h3>
+<br><br>
+ 1. O mascote do Mozilla Firefox não é uma raposa
+Ao contrário do que sugere o nome, o animal que aparece no logo do navegador Firefox não é uma raposa, mas sim um panda vermelho. O bicho é um mamífero de porte pequeno com pelos vermelhos e manchas brancas na face e está em perigo de extinção. É conhecido também como “raposa de fogo”, ou seja, firefox em inglês. Como o panda vermelho não é muito conhecido, o designer que fez o logo acabou usando traços de uma raposa, aumentando a confusão.   
+<br><br>
+2. A origem da palavra “robô” remete a trabalho forçado
+Quem cunhou o termo "robô" foi o escritor, jornalista e filósofo checo Karel Capek, na peça teatral de sucesso Rossum's Universal Robots, em 1920. Na obra, uma empresa usava biotecnologia avançada para produzir trabalhadores em massa. Eles não tinham alma ou sentimentos, mas podiam fazer todo o trabalho que os humanos queriam evitar. Com o tempo, esses seres acabam dominando o mundo.
+<br><br>
+3. Empresas de tecnologia costumam testar produtos na Nova Zelândia
+Muitas companhias de software, redes sociais e desenvolvedores de aplicativos recorrem à Nova Zelândia para testar e aperfeiçoar seus produtos e serviços. O motivo? O país da Oceania é considerado isolado o suficiente para evitar vazamentos, com o benefício de que a população fala inglês, tem gostos e poder econômico semelhantes aos ocidentais. Lá, é possível descobrir e consertar bugs antes do lançamento, inclusive testando o suporte para um grande número de usuários. Microsoft, Facebook e Yahoo, por exemplo, já fizeram testes no mercado neozelandês.
+<br><br>
+4. O celular no bolso e a síndrome da vibração fantasma
+O fenômeno em que você acha que seu smartphone está vibrando, mas ele não está, tem nome: síndrome da vibração fantasma. Pesquisadores explicam que a causa são “hábitos corporais aprendidos”. As pessoas passam a sentir o celular deixado no bolso como parte do próprio corpo, da mesma forma que acontece com quem usa óculos, por exemplo. Assim, às vezes, percebem sensações como o movimento da roupa ou espasmos dos músculos como se fossem a vibração do telefone.
+<br><br>
+5. A primeira câmera do mundo levou oito horas para tirar uma foto
+
+A primeira fotografia da história foi feita em 1826, capturando a vista de uma janela na região de Le Gras, na França. Foram necessárias oito horas de exposição para registrar a imagem em uma placa de estanho de cerca de 20 x 16 cm. Já em 1839, surgiu o daguerreótipo, primeira câmera que chegou ao grande público e reduziu o tempo de exposição para 15 minutos. Ainda assim, consegue imaginar ficar parado por todo esse tempo? Não é a toa que antigamente as pessoas saíam sentadas e sem sorrir nas fotos.
+<br><br>
+fonte: https://www.techtudo.com.br/noticias/2018/02/dez-curiosidades-sobre-o-mundo-da-tecnologia-que-voce-nao-conhecia.ghtml
+</div>
 <br><br>
   <div class="rodape">
 <p align="center">&copy;2023| Autor: Claudiane Santiago | Email: claudiane.santiago05@aluno.ifce.edu.br</p>    
