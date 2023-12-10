@@ -1,27 +1,205 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf0f1;
+}
+.content {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 900px;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.content::before {
+    content: "";
+    position: absolute;
+    background-color: #0000FF;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 
-  <head> 
-    <title> Login </title>
 
-  </head>
-<body> 
+    left: 0;
+}
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-primary {
+    color: #fff;
+}
+.title-second {
+    color: #0000FF;
+}
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.description-primary {
+    color: #fff;
+}
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn-second {
+    background-color: #0000FF;
+    border: 1px solid #0000FF;
+    transition: background-color .5s;
+    padding: 10px 50px;
+    
+}
+.btn-second:hover {
+    background-color: #fff;
+    border: 1px solid  #0000FF;
+    color:  #0000FF;
    
-  <h1>Mundo Digital</h1>
-  <h2> Bem-vindo de volta </h2>
-  <h2> Acesse sua conta agora mesmo. </h2>
-  <div>
-     <input type="email" placeholder="Email">
-    <br><br>
-     <input type="password" placeholder="Senha">
-    <br><br>
-     <button> <a href="Entrar.html">Entrar</a> </button>
-    <br><br>
-  </div>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <div class="rodape">
-<p align="center">&copy;2023| Autor: Claudiane Santiago | Email: claudiane.santiago05@aluno.ifce.edu.br</p>
-  </div>
-  
-</body>
+}
 
+.btn-second a {
+text-decoration: none;
+color: white;
+
+}
+
+.first-content {
+    display: flex;
+}
+.first-content .second-column {
+    z-index: 11;
+}
+.first-column {
+    text-align: center;
+    width: 40%;
+    z-index: 10;
+}
+.second-column {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.second-content {
+    position: absolute;
+    display: flex;
+}
+.second-content .first-column {
+    order: 2;
+    z-index: -1;
+}
+.second-content .second-column {
+    order: 1;
+    z-index: -1;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.form input {
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color: #ecf0f1;
+}
+input:-webkit-autofill 
+{    
+    -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset !important;
+    -webkit-text-fill-color: #000 !important;
+}
+.label-input {
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+
+.icon-modify {
+    color: #7f8c8d;
+    padding: 0 5px;
+}
+.password {
+    color: #34495e;
+    font-size: 14px;
+    margin: 15px 0;
+    text-align: center;
+}
+.senha::first-letter {
+    text-transform: capitalize;
+}
+
+
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Mundo Digital</h2>
+                <p class="description description-primary">Bem-vindo de volta</p>
+                
+                
+
+            </div>    
+            <div class="second-column">
+                <h2 class="title title-second">Acesse sua conta agora mesmo.</h2>
+                <br><br>
+          
+                <form class="form">
+                
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha">
+                    </label>
+                    
+                  
+                 
+                    <button id="Entrar" class="btn btn-second"><a href="Conteudo.html">Entrar</a></button>        
+                </form>
+            </div>
+</body>
 </html>
