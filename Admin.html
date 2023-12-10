@@ -22,12 +22,37 @@
     justify-content: center;
     font-family:'Lato', sans-serif;
     color: #fff;
-    
+     font-size: 10px;
   margin-right: 50px;
-  margin-left: 420px;
+  margin-left: 30px;
   
 }
 
+.menu{
+    display:flex;
+  }
+  .menu li{
+    margin:20px;
+    
+    justify-content: flex-end;
+    list-style: none;
+    color: #fff;
+    font-family:'Lato', sans-serif;
+       
+  }
+
+ .menu li a {
+  
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Lato',sans-serif;
+  color: #fff;
+}
+
+ .menu li a:hover {
+  background-color: orange;
+  color: black;
+}
 .texto {
   font-family:'Lato', sans-serif;
   font-size: 30px;
@@ -89,7 +114,18 @@ table {
    <h1> Lista de usuários cadastrados</h1>
    </div>
 </div>
-   
+
+<nav>
+  <ul class="menu"> 
+     <li><a href="Admin.html">Admin</a></li>
+     <li><a href="Login.html">Home</a></li>
+     <li><a href="Login.html">Últimas Notícias</a></li>
+     <li><a href="Login.html">Análises de produtos</a></li>
+     <li><a href="Login.html">Dicas e truques</a></li>
+     <li><a href="Login.html">Curiosidades</a></li>
+  </ul>
+</nav>
+  
 </header>
 <div class="texto">
   <h3>Cadastrar novo usuário</h3>
@@ -135,7 +171,8 @@ table {
       <td><button>Editar</button><button>Apagar</button></td>
     </tr>
   </table>
-  <br><br><br><br><br><br><br>
+
+  <br><br><br><br><br><br>
 
 <footer>
 <div class="rodape">
